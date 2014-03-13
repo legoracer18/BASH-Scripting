@@ -5,6 +5,9 @@
 # The file that I will be reading from is "grades.txt". This program is built to 
 # keep prompting the user for input until the users inputs 'q' to quit.
 
+# This program assumes that the file it is reading is already sorted and in the format 
+# described above.
+
 # Read the file into an array
 students=( `cat "grades.txt"` )
 # This is just a flag that will quit the program if the user inputs 'q' at the prompt.
